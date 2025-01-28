@@ -8,8 +8,8 @@ from config import Config
 
 system_prompt = Config.SYSTEM_PROMPT
 
-def chat(user_prompt, model):
-    stream = ollama.chat(
+def chat(user_prompt, model, client):
+    stream = client.chat(
         model=model,
         messages=[{'role': 'assistant', 'content': system_prompt},
                   {'role': 'user', 'content': f"Model being used is {model}.{user_prompt}"}],

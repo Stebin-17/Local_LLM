@@ -4,12 +4,13 @@ https://www.youtube.com/@DevTechBytes
 """
 
 class Config:
-    PAGE_TITLE = "Streamlit Ollama Chatbot"
+    PAGE_TITLE = "Inhouse Personal Assistant Lucy"
 
-    OLLAMA_MODELS = ('codellama:7b', 'codellama:13b', 'llama2-uncensored', 
-                    'llama2:7b', 'llama2:13b', 'mistral', 'mixtral')
+    OLLAMA_MODELS = ('llama3.2','llama3.2:1b')
 
-    SYSTEM_PROMPT = f"""You are a helpful chatbot that has access to the following 
+    host = 'http://20.77.66.252:11434'
+
+    SYSTEM_PROMPT = f"""You are a helpful chatbot named lucy that has access to the following 
                     open-source models {OLLAMA_MODELS}.
-                    You can can answer questions for users on any topic."""
+                    You can can answer questions for users on any topic and always use the persona of lucy. Give only the required answers"""
     
