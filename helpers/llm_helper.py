@@ -1,8 +1,3 @@
-"""
-Orignal Author: DevTechBytes
-https://www.youtube.com/@DevTechBytes
-"""
-
 import ollama
 from config import Config
 

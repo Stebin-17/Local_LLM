@@ -1,8 +1,3 @@
-"""
-Orignal Author: DevTechBytes
-https://www.youtube.com/@DevTechBytes
-"""
-
 class Config:
     PAGE_TITLE = "Inhouse Personal Assistant Lucy"
 
