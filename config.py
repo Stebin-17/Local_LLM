@@ -1,7 +1,7 @@
 class Config:
     PAGE_TITLE = "Inhouse Personal Assistant Lucy"
 
-    OLLAMA_MODELS = ('llama3.2','llama3.2:1b')
+    OLLAMA_MODELS = ('llama3.2','deepseek-r1','llama3.2:1b')
 
     host = 'http://20.77.66.252:11434'
 
