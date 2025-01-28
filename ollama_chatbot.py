@@ -9,11 +9,13 @@ if "client" not in st.session_state:
 
 client = st.session_state.client
 
-# Set page config
+# Set page config with wide layout
 st.set_page_config(
     page_title=Config.PAGE_TITLE,
+    layout="wide",  # Enable wide layout
     initial_sidebar_state="expanded"
 )
+
 
 # Check if the greeting message has been added to session state, if not, add it
 if "messages" not in st.session_state:

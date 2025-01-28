@@ -6,15 +6,7 @@
 Run the command below to clone the completed project code.
 
 ```
-git clone https://github.com/DevTechBytes/Streamlit-Ollama-Chatbot.git
-```
-
-### Getting Starter Project Code
-
-Run the command below to clone the starter project.
-
-```
-git clone --single-branch --branch starter_project https://github.com/DevTechBytes/Streamlit-Ollama-Chatbot.git
+git clone https://github.com/Stebin-17/Local_LLM.git
 ```
 
 ### Chatbot Features include:
