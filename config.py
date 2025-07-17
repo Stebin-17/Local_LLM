@@ -3,7 +3,7 @@ class Config:
 
     OLLAMA_MODELS = ('llama3.2','deepseek-r1','llama3.2:1b')
 
-    host = 'http://20.77.66.252:11434'
+    host = ''
 
     SYSTEM_PROMPT = f"""You are a helpful chatbot named lucy that has access to the following 
                     open-source models {OLLAMA_MODELS}.
